@@ -1,0 +1,14 @@
+.titulo-sobre {
+  color: #3D3D3D ;
+  background-color:#E1EDF2 ;
+}
+
+h2 {
+  border-bottom: 2px solid #3D3D3D ;
+  display: inline-block;
+}
+
+.foto-header {
+  display: grid;
+  justify-content: center;
+}
