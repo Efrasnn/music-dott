@@ -1,14 +1,28 @@
 .titulo-sobre {
   color: #3D3D3D ;
-  background-color:#E1EDF2 ;
+  background-color:#ecf2f5 ;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
 }
 
 h2 {
   border-bottom: 2px solid #3D3D3D ;
-  display: inline-block;
+  display: inline-block;  
 }
 
 .foto-header {
   display: grid;
   justify-content: center;
+  background-color: whitesmoke;
+}
+
+.foto-header p {
+   text-align: center;
+   margin-top: 20px;
+  color: lightslategray;
+}
+
+.foto-header {
+  padding: 30px;
 }
