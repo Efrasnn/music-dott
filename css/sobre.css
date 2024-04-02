@@ -6,7 +6,7 @@
   
 }
 
-h2 {
+.sublinhado{
   border-bottom: 2px solid #3D3D3D ; 
 }
 
@@ -19,9 +19,24 @@ h2 {
 .foto-header p {
    text-align: center;
    margin-top: 20px;
-  color: lightslategray;
+   color: lightslategray;
 }
 
 .foto-header {
   padding: 30px;
+}
+
+.conteiner-historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*  contato */
+
+.contato {
+  color: #3D3D3D ;
+  background-color:#ecf2f5 ;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  padding: 10px;
 }
