@@ -6,6 +6,10 @@
   
 }
 
+.header-menu img {
+  margin-bottom: 20px;
+}
+
 .sublinhado{
   border-bottom: 2px solid #3D3D3D ; 
 }
@@ -31,16 +35,41 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.diferenciais-musicDot {
+  margin-bottom: 15px;
+}
+
+.diferenciais-musicDot h2 {
+  margin-bottom: 15px;
+}
+
+
+.diferenciais-musicDot ul {
+  list-style: inside;
+}
+
+.diferenciais-musicDot li {
+  margin: 2px;
+}
+
+
 /*  contato */
 
 .contato {
   color: #3D3D3D ;
   background-color:#ecf2f5 ;
-  margin-bottom: 60px;
-  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
 .contato-music-dot  ul {
   list-style: none;
+}
+
+.correspondencia {
+  margin-bottom: 10px;
+}
+
+.contato-music-dot {
+  margin-bottom: 30px;
 }
