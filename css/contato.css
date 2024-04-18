@@ -1,0 +1,23 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato {
+  color: #3D3D3D ;
+  background-color:#ecf2f5 ;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.conteudo-contato .form {
+  gap: 10p;
+}
+
+input {
+  height: 30px; width: 500px;
+}
+
+.botao-forms {
+  height: 50px; width: 100px;
+  font-weight: bold;
+}
