@@ -1,15 +1,120 @@
+.main-principal {
+  display: grid;
+  justify-content: center;
+}
+
 .principal {
-  font-family: 'Montserrat';
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .header-principal {
   background-color: #2D5377;
+  border-radius: 3px;
 }
 
 
 .header-principal a {
  color: #fff;
+ font-family: Arial, Helvetica, sans-serif;
 }
+
+.header-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header-menu a {
+  background: #2D5377;
+  padding: 5px 5px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: solid transparent;
+}
+
+.header-menu {
+  display: flex;
+  gap: 20px;
+
+}
+
+.header-menu a:hover {
+  border: solid #fff 1px;
+  padding: 6px;
+}
+
+.Video-Container{
+  background-color: #2D5377;
+  padding-bottom: 160px;
+}
+
+.Video-Container, .vd{
+  display: grid;
+  justify-content:center;
+  margin-top: 60px;
+  border-radius: 5px;
+ }
+
+ .Video-Container, strong {
+  color: #fff;
+  font-family: monospace;
+  font-weight: 600;
+  font-size:21px;
+  justify-content: center;
+  display: grid;
+  
+
+}
+
+
+
+
+
+
+
+@media (max-width: 800px){
+  .header-principal{
+   flex-direction: column;
+   gap: 20px;
+  }
+  .header-menu {
+    font-size: 15px ;
+  }
+
+  .vd {
+    max-width: 600px;
+  }
+  .Video-Container, strong {
+    font-size: 13px;
+  }
+}
+@media (max-width: 800px){
+  .header-principal {
+    flex-direction: column;
+    gap: 20px;
+      }
+  .img-principal {
+    width: 150PX;
+  }
+ }
+
+
+@media (max-width: 500px){
+  .header-principal {
+    flex-direction: column;
+    gap: 20px;
+      }
+      .vd {
+        max-width: 500px;
+      }
+ }
+
+
 
 
 

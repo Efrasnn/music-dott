@@ -1,11 +1,13 @@
 @import url(./sobre.css);
 @import url(./principal.css);
 @import url(./contato.css);
+@import url(./Footer.css);
+@import url(./main.css);
+@import url(./login.css);
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  max-width: 940px;
   margin: 0 auto;
 }
 
